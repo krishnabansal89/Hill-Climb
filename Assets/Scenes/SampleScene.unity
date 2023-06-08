@@ -278,7 +278,7 @@ WheelJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 1.630229, y: -0.09647989}
+  m_ConnectedAnchor: {x: 1.6143084, y: -0.054024458}
   m_Suspension:
     m_DampingRatio: 0.9
     m_Frequency: 10
@@ -588,7 +588,7 @@ EdgeCollider2D:
   m_GameObject: {fileID: 771922754}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 453833c80ca97564dbde9881fbaedc5f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1155,6 +1155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1507317468}
   - component: {fileID: 1507317467}
+  - component: {fileID: 1507317469}
   m_Layer: 0
   m_Name: ' controller'
   m_TagString: Untagged
@@ -1203,6 +1204,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1507317469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507317466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 219b758b90db0bd48a5da466c8095e7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1500
+  wheel1: {fileID: 1810232647}
 --- !u!1 &1810232643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,7 +1246,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810232643}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.011295319, y: -0.16, z: 0.015822597}
+  m_LocalPosition: {x: -0.003, y: -0.168, z: 0.015822597}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1247,7 +1262,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 1810232643}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 453833c80ca97564dbde9881fbaedc5f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1414,7 +1429,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975577769}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.81229496, y: 0.39472014, z: 0.015822597}
+  m_LocalPosition: {x: 0.81229496, y: 0.39472008, z: 0.015822597}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
