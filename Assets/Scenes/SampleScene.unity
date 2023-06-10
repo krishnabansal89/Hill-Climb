@@ -489,7 +489,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1507317468}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &216240902
 SpriteRenderer:
@@ -837,7 +837,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1507317468}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &483981365
 SpriteRenderer:
@@ -1417,6 +1417,7 @@ MonoBehaviour:
   gocanvas: {fileID: 0}
   carcontroller: {fileID: 0}
   play: {fileID: 0}
+  song: {fileID: 0}
 --- !u!114 &630050105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1508,7 +1509,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1507317468}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &688318395
 SpriteRenderer:
@@ -1578,6 +1579,7 @@ MonoBehaviour:
   gocanvas: {fileID: 528978146}
   carcontroller: {fileID: 1507317469}
   play: {fileID: 688318401}
+  song: {fileID: 1507317472}
 --- !u!233 &688318398
 HingeJoint2D:
   m_ObjectHideFlags: 0
@@ -2721,11 +2723,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1975577770}
   - {fileID: 1810232644}
   - {fileID: 216240900}
   - {fileID: 483981364}
   - {fileID: 688318394}
+  - {fileID: 1975577770}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2751,7 +2753,7 @@ MonoBehaviour:
   car: {fileID: 1507317467}
   camera: {fileID: 519420032}
   image: {fileID: 1120644676}
-  play: {fileID: 1507317472}
+  play: {fileID: 0}
   value: 0.1
 --- !u!235 &1507317470
 WheelJoint2D:
@@ -4308,7 +4310,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1507317468}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1810232646
 SpriteRenderer:
@@ -4545,7 +4547,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1507317468}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1975577772
 SpriteRenderer:

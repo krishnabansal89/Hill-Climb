@@ -10,17 +10,19 @@ public class Gameover : MonoBehaviour
     public GameObject gocanvas;
     public carcontroller carcontroller;
     public AudioSource play;
+    public AudioSource song;
 
     // Update is called once per frame
     private void Awake() {
         gocanvas.SetActive(false);
         Time.timeScale = 1f;
-        play.volume = 0.4f;
-        play.Play();
+        song.volume = 0.4f;
+        song.Play();
     }
     public void GameOver() {
+        song.volume = 0f;
         gocanvas.SetActive(true);
-        play.volume = 0f;
+        
         Time.timeScale = 0f;
         
     }
